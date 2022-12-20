@@ -1,0 +1,149 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+/********************
+    Play Section
+*********************/
+
+#level-title {
+  font-family: 'Rubik 80s Fade', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+/*********************
+    Navigation Bar
+*********************/
+  #landing ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  #landing li {
+    float: left;
+    padding: 0 1%;
+    font-size: 1.5em;
+  }
+  
+  #landing li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #landing li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  #landing .active {
+
+  }
+
+/*********************
+    Home Section
+*********************/
+#home {
+  height: 100vh;
+}
+#home h1 {
+  padding-top: 10%;
+  font-size: 5em;
+  color: aliceblue;
+  font-weight: 100;
+  margin-bottom: 0;
+  font-family: 'Rubik', sans-serif;
+}
+#home h1:hover {
+  text-shadow: 0 0 3px #FF0000;
+}
+#home p {
+  color: aqua;
+
+  font-weight: 50;
+}
+#home h2 {
+  color: #fff;
+}
+
+/*********************
+    About Section
+*********************/
+
+#about {
+  height: 100vh;
+  color:#fff;
+  font-family: 'Rubik', sans-serif;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+ 
+}
+.grid-item {
+  display: inline-grid;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  padding:0 10%;
+}
+.grid-item .one {
+  min-width: 60vw;
+}
+.grid-item .two {
+  position: relative;
+  left: 50%;
+}
+
+#play {
+  max-height: 100vh;;
+}
